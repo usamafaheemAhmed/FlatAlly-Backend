@@ -393,3 +393,79 @@
 20240625	00:21:21	fd4896e0-aa45-46ab-9bb0-edcfc0975034	GET	::ffff:127.0.0.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0	/api/user_Appointment/adminGet
 20240625	09:06:16	55054e5d-0593-405a-98b4-a01a65ad8e74	GET	::1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36	/api/user_Appointment/adminGet
 20240625	09:06:17	1e554cda-bacd-4d71-9941-03aa937bed73	GET	::1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36	/api/user_Appointment/adminGet
+20240709	00:02:47	2eb18f7c-f884-4e4c-a830-bdb8f52e8e29	GET	::1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36	/api
+20240709	00:02:48	d68031b5-8661-4f9c-8135-8b48028e851f	GET	::1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36	/favicon.ico
+20240709	00:04:06	de8e95c0-58cf-4554-9522-90b6e0db6d70	GET	::1	PostmanRuntime/7.39.0	/api/area
+20240709	00:05:06	f3cc467b-dbd7-4857-b231-8a2984e1e143	GET	::1	PostmanRuntime/7.39.0	/api/area
+20240709	00:10:18	6a82d145-a186-4b08-93b5-85c9120c8960	GET	::1	PostmanRuntime/7.39.0	/api/area
+20240709	00:33:57	7fef2dee-733c-42ed-9953-3785f26cc00a	GET	::1	PostmanRuntime/7.39.0	/api/area
+20240709	00:35:21	67a92692-72ce-42dd-9299-42ce8cecde74	GET	::1	PostmanRuntime/7.39.0	/api/area
+20240709	00:43:06	837c2c2f-b611-4f55-b13d-a8cb9df5254b	GET	::1	PostmanRuntime/7.39.0	/api/area
+20240709	00:51:32	b9a836de-46b2-4d88-bab3-afe79896a46b	GET	::1	PostmanRuntime/7.39.0	/api/area
+20240709	00:54:03	11bb2b3a-4f07-443c-933f-5b8091838ad1	POST	::1	PostmanRuntime/7.39.0	/api/area/Add
+20240709	00:54:56	5b7b8615-ab99-4c11-8b50-e88fb8db29fb	POST	::1	PostmanRuntime/7.39.0	/api/area/Add
+20240709	00:55:14	174fc338-cd9b-40ab-967a-e5cfb9794544	GET	::1	PostmanRuntime/7.39.0	/api/area
+20240709	08:52:21	98ea9b4c-8221-4189-889a-d8eee0946ca3	GET	::1	PostmanRuntime/7.39.0	/api/Register
+20240709	08:52:42	fa393948-3118-4edf-a864-e0893312dd19	GET	::1	PostmanRuntime/7.39.0	/api/area
+20240709	08:59:43	0e322d54-4b6f-4cd5-a4bb-2e233d243a33	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240709	09:02:42	4c8e0e17-19d4-45c8-8e1a-e3dd1fa633b6	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240710	23:24:41	aa1c0960-eef5-4b6c-bb31-8b7e5cbfcce9	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240710	23:30:55	6f753d9d-a07a-4dab-922c-9e09518c34d4	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240710	23:31:46	cda7487c-885c-41e1-8a16-ff7372e2db3d	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240710	23:32:39	90bab0dd-8060-4e0c-81fa-0ccd35ac029a	GET	::1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36	/api/images//1720636306161.jpg
+20240710	23:32:40	11f26de8-c9b2-44da-93fa-16de171d6d03	GET	::1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36	/favicon.ico
+20240710	23:32:43	067b7a57-876e-423c-b447-45f58406ce83	GET	::1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36	/api/images/1720636306161.jpg
+20240710	23:32:44	f0ce13ef-7d29-4de0-8da1-1da0d04f4ebc	GET	::1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36	/favicon.ico
+20240710	23:33:04	52a1e6c8-c15a-42e1-94dc-6cee13699aa0	GET	::1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36	/images/1720636306161.jpg
+20240710	23:33:06	99c028d6-f7d4-4e2e-a96c-0edd551b04bc	GET	::1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36	/favicon.ico
+20240710	23:36:46	5322aab8-0404-4f95-8cfa-ab072b899c3a	GET	::1	PostmanRuntime/7.39.0	/api/Register/668ed39259bba7360493fb98
+20240710	23:38:15	a9a0fe85-05c2-40b4-9fa6-771af36fa046	GET	::1	PostmanRuntime/7.39.0	/api/Register/668ed39259bba7360493fb98
+20240710	23:42:53	397f5467-8739-4cbc-99c5-cd9839cc308c	GET	::1	PostmanRuntime/7.39.0	/api/area
+20240710	23:43:01	e00fe435-2bb8-41d8-aeae-7e736d5e2477	POST	::1	PostmanRuntime/7.39.0	/api/area/Add
+20240711	00:24:01	4c8d9d32-6cb2-4ec3-9e51-bfcdb9c140c0	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240711	00:27:55	f947a38c-e6ba-4b71-bbba-1205adf83e61	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240711	00:32:56	f8a86e1e-287e-409a-a693-039695ccf92f	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240711	00:34:25	30a807bf-db80-483e-8c9e-f18b8dadaa15	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240711	00:37:14	a3dd2431-ddd4-458d-aedd-b06568089804	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240711	00:37:55	58021a7a-386b-496f-a8b1-9c4a5e4d5881	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240711	00:40:07	0968661c-3ab2-4aca-97bc-31d1706d9661	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240711	00:41:50	04ddf957-ca8a-4ca3-a727-d5b6c8d40333	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240711	00:49:42	2ff12ff1-b0c9-4a28-abd7-803b7e5f969d	POST	::1	PostmanRuntime/7.39.0	/api/Register/Add
+20240711	00:52:58	765884a6-6e76-47ae-a5e1-272362d4027c	POST	::1	PostmanRuntime/7.39.0	/api/Login
+20240711	00:53:48	d987f64d-bc92-486b-970b-137394524133	POST	::1	PostmanRuntime/7.39.0	/api/Login
+20240711	00:54:11	8fd74606-7171-4f20-8104-305766b06a0f	GET	::1	PostmanRuntime/7.39.0	/api/Register/668ed39259bba7360493fb98
+20240711	00:54:17	e107d1b0-fa27-4eb8-b79f-1468891f9a44	GET	::1	PostmanRuntime/7.39.0	/api/Register/
+20240711	00:55:32	43db46f9-f063-4ba0-b7cb-345d5c04654b	POST	::1	PostmanRuntime/7.39.0	/api/Login
+20240711	00:56:05	49c5e65d-305e-4064-af38-8150820b8d70	POST	::1	PostmanRuntime/7.39.0	/api/Login
+20240711	00:56:45	cac2180b-b2fc-4f48-8460-e5861ae5d0ec	POST	::1	PostmanRuntime/7.39.0	/api/Login
+20240711	00:57:44	09957be5-b963-40a2-be94-2f5e0005cb49	POST	::1	PostmanRuntime/7.39.0	/api/Login
+20240711	00:57:59	3b5cbf60-1d0f-4126-bbab-af17c12ec06e	POST	::1	PostmanRuntime/7.39.0	/api/Login
+20240711	00:58:46	a5d17af9-93e6-40ee-80b5-77d103e2a178	POST	::1	PostmanRuntime/7.39.0	/api/Login
+20240711	01:00:23	c7cfd5df-06e0-46fb-a87d-fb73e106f47d	POST	::1	PostmanRuntime/7.39.0	/api/Login
+20240711	01:02:14	b2bc4fdc-0ba8-4b03-bcb5-d40a50827d16	GET	::1	PostmanRuntime/7.39.0	/api/jumpingJapang
+20240711	01:19:20	aa6bca12-575e-44fe-a840-974e807366f4	GET	::1	PostmanRuntime/7.39.0	/api/Reviews
+20240711	01:19:34	9e857d7d-6d51-43fb-aeed-e0bf1a9e036c	GET	::1	PostmanRuntime/7.39.0	/api/Reviews
+20240711	01:21:13	7a104c7d-3ce7-435b-8a80-4d3169750e87	GET	::1	PostmanRuntime/7.39.0	/api/Reviews
+20240711	01:24:09	486c0d63-739a-45b9-a1d2-07c2b6ecf897	GET	::1	PostmanRuntime/7.39.0	/api/Reviews
+20240711	01:24:59	8ecf2dc8-021f-4597-9fe2-2e52cfe658f7	GET	::1	PostmanRuntime/7.39.0	/api/Register/
+20240711	01:25:56	8369c4b9-385c-4c5d-9c6b-62242c1fc670	POST	::1	PostmanRuntime/7.39.0	/api/Reviews/Add
+20240711	01:26:08	4268d77a-8925-4116-99f2-9e3ab29d185b	POST	::1	PostmanRuntime/7.39.0	/api/Reviews/Add
+20240711	01:31:11	a3256ec6-dc70-46d1-ad69-96f5831e65c7	POST	::1	PostmanRuntime/7.39.0	/api/Reviews/Add
+20240711	01:31:31	4d51a763-4fd3-4d19-a22a-a357995c01e5	POST	::1	PostmanRuntime/7.39.0	/api/Reviews/Add
+20240711	01:31:40	ec4b5037-c6b5-471c-ba4a-89b6dae5fdea	GET	::1	PostmanRuntime/7.39.0	/api/Reviews
+20240711	01:34:15	51f4cd85-d4ca-42f5-a60e-1d65e2ed0019	GET	::1	PostmanRuntime/7.39.0	/api/Reviews
+20240711	01:34:21	abb8c71b-2cbb-47d7-a876-8fe0875b7209	POST	::1	PostmanRuntime/7.39.0	/api/Reviews/Add
+20240711	01:34:29	c19cec71-91a3-41af-828a-f87b3677cd8d	GET	::1	PostmanRuntime/7.39.0	/api/Reviews
+20240711	01:36:32	3e92667b-6b23-445f-b589-4490d5f1a142	GET	::1	PostmanRuntime/7.39.0	/api/Reviews
+20240711	01:36:42	cf5d5418-4439-49cc-8825-ca86f9fe540e	GET	::1	PostmanRuntime/7.39.0	/api/Reviews/668ee5d74ec614db8cf46229
+20240711	01:39:07	d383591e-97cb-4e18-adce-6bed7cfe306b	GET	::1	PostmanRuntime/7.39.0	/api/Reviews/668ee5d74ec614db8cf46229
+20240711	01:39:48	4df1888a-bbf1-42fa-809b-ebc319c4927f	GET	::1	PostmanRuntime/7.39.0	/api/Reviews/668ee5d74ec614db8cf46229
+20240711	01:39:55	52fd52b6-0317-47e5-b83e-d1cc4d8ab0ef	GET	::1	PostmanRuntime/7.39.0	/api/Reviews/
+20240711	01:43:35	079c439e-6319-4d69-abcc-d7a6d853bdd9	GET	::1	PostmanRuntime/7.39.0	/api/Reviews/
+20240711	23:10:41	d14591bb-5404-49c2-a07a-db714c6956af	GET	::1	PostmanRuntime/7.40.0	/api/JWTTest
+20240711	23:16:27	5c853eb0-70da-43ff-816b-0104b055de0d	POST	::1	PostmanRuntime/7.40.0	/api/Register/Add
+20240711	23:17:10	f0e63f95-9a87-47c7-b3e8-c5c620d2d280	GET	::1	PostmanRuntime/7.40.0	/api/Register/
+20240711	23:18:12	e6a8e146-9a54-4271-b619-50eefa921d05	GET	::1	PostmanRuntime/7.40.0	/api/Register/
+20240711	23:19:05	643e5713-e7a1-4f69-8c01-6d6dcec17fd4	POST	::1	PostmanRuntime/7.40.0	/api/Register/Add
+20240711	23:19:29	57cdc35a-286a-4e43-a2a9-83a1e4bacdb0	POST	::1	PostmanRuntime/7.40.0	/api/Login
+20240711	23:20:10	ec106997-bdba-41f8-a17e-177a5dad726c	GET	::1	PostmanRuntime/7.40.0	/api/Reviews/

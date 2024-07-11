@@ -13,7 +13,7 @@ const verifyJWT = require('./middleWare/verifyJWT');
 
 const Mongoose = require("mongoose");
 const url = "mongodb://127.0.0.1/FlatAlly";
-// const url = "mongodb+srv://Usama:Usama123@cluster0.uptthkz.mongodb.net/";
+// const url = "mongodb+srv://hannanse710:Bunny71099@flatally.5z1q3lm.mongodb.net/";
 
 Mongoose.connect(url, { useNewUrlParser: true });
 const Mongo = Mongoose.connection;
@@ -34,6 +34,7 @@ App.get('/api', (req, res) => {
 App.use('/images', Express.static('images'))
 
 
+App.use("/api/area", require('./Route/area'));
 App.use("/api/Register", require('./Route/Register'));
 
 //User Authentication
@@ -44,6 +45,11 @@ App.use("/api/logout", require('./Route/auth/logout'));
 App.use(verifyJWT);
 
 
+App.get('/api/JWTTest', (req, res) => {
+  res.send('Hello, This is React Backend! token k bad chala');
+});
+
+App.use("/api/Reviews", require('./Route/Reviews'));
 
 // for unknown API address 
 App.all('*', (req, res) => {
@@ -57,7 +63,7 @@ App.all('*', (req, res) => {
 
 
 App.use(errorHandler);
- 
+
 
 const port = process.env.PORT || 7000;
 App.listen(port, () => {

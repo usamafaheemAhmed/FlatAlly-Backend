@@ -11,15 +11,15 @@ const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
 const handleAuth = async (req, res) => {
-    // console.log(req.body);
-    const phone_number = req.body.phone_number;
+    console.log(req.body);
+    const email = req.body.email;
     const pwd = req.body.password;
 
-    if (!phone_number || !pwd) { 
-        return res.status(404).json({ "message": "User phone and Password is required" });
+    if (!email || !pwd) {
+        return res.status(404).json({ "message": "User Email and Password is required" });
     }
 
-    const foundUser = await UserDetails.findOne({ phone_number: phone_number }).exec();
+    const foundUser = await UserDetails.findOne({ email: email }).exec();
     // console.log("ma error hun",foundUser);
 
     // if (!foundUser) return res.status(401).json({ "message": "User does't exist" });
@@ -31,15 +31,12 @@ const handleAuth = async (req, res) => {
     if (match) {
 
         // console.log(foundUser)
-        const roles = Object.values(foundUser.roles)
+        // const roles = Object.values(foundUser.roles)
 
         //saving token
         const accessToken = jwt.sign(
             {
-                "Userinfo": {
-                    "id": foundUser._id,
-                    "roles": roles
-                }
+                "Userinfo": foundUser
             },
             process.env.ACCESS_TOKEN_SECRET,
             {
