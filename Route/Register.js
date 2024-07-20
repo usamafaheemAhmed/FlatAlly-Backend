@@ -44,61 +44,6 @@ var upload = multer({
     // fileFilter: function(req, file, callback)
 });
 
-// MyRouter.post("/Add", upload.single("imageUrl"), async (req, res) => {
-//     const NewUser = req.body;
-
-//     let areaValue = NewUser.area;
-//     NewUser.area = undefined;
-
-//     const { error } = usersSchema(NewUser);
-//     if (error) {
-//         res.status(404).send({ message: error.details[0].message });
-//     } else {
-//         try {
-//             const UpdateUser = await users.findOne({ email: NewUser.email });
-//             if (UpdateUser) {
-//                 return res.status(404).send({ message: "User Already Exists" });
-//             }
-
-//             // AddUser.password = req.body.password
-//             const hashedPwd = await bcrypt.hash(req.body.password, 10);
-//             NewUser.password = hashedPwd;
-
-
-//             const area = await area.findOne({ areaName: areaValue });
-//             if (area) {
-//                 // let area_FK = new area(req.body.area);
-//                 NewUser.area_FK = area._id;
-//                 NewUser.area = undefined;
-//             } else {
-//                 let obj = {
-//                     areaName: req.body.area
-//                 }
-//                 let area_FK = new area(obj);
-//                 NewUser.area_FK = area_FK._id;
-//                 NewUser.area = undefined;
-//             }
-
-
-
-//             let AddUser = new users(NewUser);
-//             console.log(req.file.path)
-//             if (req.file) {
-//                 AddUser.imageUrl = req.file.path;
-//             }
-
-//             AddUser = await AddUser.save();
-//             res.send(AddUser);
-
-//         } catch (error) {
-//             console.error(error);
-//             res.status(500).send({ message: "Internal server error" });
-//         }
-//     }
-// });
-
-
-
 MyRouter.post("/Add", upload.single("imageUrl"), async (req, res) => {
     const NewUser = {
         userName: req.body.userName,
@@ -108,7 +53,7 @@ MyRouter.post("/Add", upload.single("imageUrl"), async (req, res) => {
         gender: req.body.gender,
         address: req.body.address,
         accountType: req.body.accountType,
-        imageUrl: req.body.imageUrl,
+        // imageUrl: req.body.imageUrl,
     };
 
     let areaValue = req.body.area;

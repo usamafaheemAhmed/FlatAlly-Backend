@@ -28,6 +28,7 @@ MyRouter.get("/:id", async (req, res) => {
 
 MyRouter.post("/Add", async (req, res) => {
     const reviewsObj = req.body;
+    reviewsObj.user_FK = req.id;
     const { error } = ReviewsSchema(reviewsObj);
     // if (error) return res.status(400).send(error.details[0].message);
 

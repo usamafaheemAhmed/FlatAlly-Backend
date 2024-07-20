@@ -2,8 +2,6 @@
 const Mongoose = require("mongoose");
 
 const User = new Mongoose.Schema({
-
-
     userName: {
         type: String
     },
@@ -36,6 +34,10 @@ const User = new Mongoose.Schema({
         type: Mongoose.Schema.Types.ObjectId,
         ref: 'area'
     },
+    refreshToken: {
+        type: String,
+        default: "no token"
+    }
 });
 
 module.exports = Mongoose.model("User", User);

@@ -41,6 +41,8 @@ App.use("/api/Register", require('./Route/Register'));
 App.use("/api/Login", require('./Route/auth/auth'));
 App.use("/api/logout", require('./Route/auth/logout'));
 
+App.use("/api/refresh", require('./Route/auth/refresh'));
+
 // App.use("/api/refresh", require('./Route/auth/refresh'));
 App.use(verifyJWT);
 
@@ -50,6 +52,13 @@ App.get('/api/JWTTest', (req, res) => {
 });
 
 App.use("/api/Reviews", require('./Route/Reviews'));
+
+App.use("/api/Preferences", require('./Route/Preferences'));
+
+App.use("/api/Flat", require('./Route/Flat'));
+
+App.use('/zoom',  require('./Route/zoom'));
+
 
 // for unknown API address 
 App.all('*', (req, res) => {
