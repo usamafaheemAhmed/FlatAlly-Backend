@@ -42,6 +42,8 @@ App.use("/api/Login", require('./Route/auth/auth'));
 App.use("/api/logout", require('./Route/auth/logout'));
 
 App.use("/api/refresh", require('./Route/auth/refresh'));
+App.use('/api/zoom', require('./Route/zoom'));
+App.use('/api/zoomAPI', require('./Route/zoomAPI'));
 
 // App.use("/api/refresh", require('./Route/auth/refresh'));
 App.use(verifyJWT);
@@ -57,7 +59,8 @@ App.use("/api/Preferences", require('./Route/Preferences'));
 
 App.use("/api/Flat", require('./Route/Flat'));
 
-App.use('/zoom',  require('./Route/zoom'));
+
+App.use('/api/match', require('./Route/MatchAlgo'));
 
 
 // for unknown API address 
